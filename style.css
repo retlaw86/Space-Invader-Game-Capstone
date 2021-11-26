@@ -1,8 +1,8 @@
 .grid {
-
+    /* Create the grib or box that the entire game will be placed in*/
     width: 300px;
     height: 300px;
-    border: solid rgba(0, 0, 0, 0.795) 1px;
+    border: solid rgba(187, 6, 204, 0.795) 1px;
     display: flex;
     flex-wrap: wrap;
     
@@ -16,25 +16,27 @@
 }
     
 .invader {
-    
-    background-color: rgb(128, 0, 0);
-    border-radius: 10px;
+    /*chose alien color */
+    background-color: rgb(128, 87, 0);
+    border-radius: 10px; 
+  
     
 }
     
 .shooter {
+    /* choose shooter color */
     background-color: green;
     
 }
     
 .laser {
-    
+    /* choose laser color*/
     background-color: orange;
     
 }
     
 .boom {
-    
+    /* choosing explosion color*/
     background-color: red;
     
 }

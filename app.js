@@ -57,7 +57,7 @@ function remove() {
 
 squares[currentShooterIndex].classList.add('shooter')
 
-//The function simply moves the main shooter (user) box left to right and nothing more
+//The function moves the main shooter (user) box left to right
 
 function moveShooter(e) {
 
